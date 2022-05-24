@@ -8,10 +8,28 @@
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "9",
     "packs": [
+        {
+            "name": "automated-creatures",
+            "label": "Automated Creatures",
+            "path": "./packs/automated-creatures.db",
+            "entity": "Actor"
+        },
 		{
             "name": "automated-spells",
             "label": "Automated Spells",
             "path": "./packs/automated-spells.db",
+            "entity": "Item"
+        },
+        {
+            "name": "subclasses",
+            "label": "Automated Subclasses",
+            "path": "./packs/subclasses.db",
+            "entity": "Item"
+        },
+        {
+            "name": "subclass-features",
+            "label": "Automated Subclass Features",
+            "path": "./packs/subclass-features.db",
             "entity": "Item"
         }
     ],
