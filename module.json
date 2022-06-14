@@ -31,6 +31,12 @@
             "label": "Automated Subclass Features",
             "path": "./packs/subclass-features.db",
             "entity": "Item"
+        },
+        {
+            "name": "macro",
+            "label": "Personalized Macros",
+            "path": "./packs/macro.db",
+            "entity": "Macro"
         }
     ],
     "manifest": "https://github.com/etoy22/Personal-Foundry-Automation-5e/releases/latest/download/module.json",
